@@ -1,0 +1,121 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+main {
+  padding-inline: 20px;
+}
+h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 50px 0;
+  color: thistle;
+}
+
+.filterDiv {
+  margin-bottom: 30px;
+}
+.filterDiv label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  padding-left: 10px;
+  margin-right: 6px;
+  /* color: thistle; */
+}
+.filterDiv input {
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  padding-inline-start: 15px;
+  font-size: 0.9rem;
+  margin-right: 20px;
+  background-color: rgba(216, 191, 216, 0.9);
+}
+
+.inputContainer {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 2fr 4fr 2.5fr 0.5fr;
+  grid-template-rows: 40px;
+}
+
+.inputContainer input {
+  margin-right: 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgba(216, 191, 216, 0.9);
+  outline: none;
+  font-family: sans-serif;
+  padding-inline-start: 15px;
+  font-size: 0.9rem;
+}
+.btnDiv {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.btnDiv button {
+  background-color: aliceblue;
+  border-radius: 7px;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100px;
+  font-weight: 500;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.btnDiv button:hover {
+  background-color: rgba(240, 248, 255, 0.791);
+}
+
+.btnDiv button:nth-last-child(1) {
+  background-color: rgb(176, 128, 128);
+}
+.btnDiv button:nth-last-child(1):hover {
+  background-color: rgba(176, 128, 128, 0.858);
+}
+span {
+  color: rgb(242, 191, 125);
+}
+.movieCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 10px;
+}
+.container {
+  /* border-top: 1px solid rgba(185, 82, 82, 0.402);
+  border-bottom: 1px solid rgba(185, 82, 82, 0.402); */
+  width: 400px;
+  border: 1px solid rgba(128, 128, 128, 0.272);
+}
+
+.imgContainer {
+  height: 225px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.detailsDiv {
+  padding-inline: 40px;
+  margin: 25px 0;
+}
+h2 {
+  font-size: 2rem;
+  color: rgb(242, 191, 125);
+}
+p {
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.rating::before {
+  content: "⭐";
+}
